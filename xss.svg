@@ -1,0 +1,23 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg">
+    <path d="M50,2a48,48 0 1 1 0,96a24 24 0 1 1 0-48a24 24 0 1 0 0-48"/>
+    <circle cx="50" cy="50" r="48" fill="none" stroke="#000"/>
+    <circle cx="50" cy="74" r="6" fill="#FFF"/>
+    <circle cx="50" cy="26" r="6"/>
+
+    <image href='1' onerror='javascript:alert("HiWorld!")'/>
+    <image href='1' onerror='console.log(document.cookie)'/>
+    <image href='1' onerror='console.log("HiWorld! #hLtAkydn")'/>
+
+
+    <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert(0%0)">
+        <a:script xmlns:a="http://www.w3.org/1999/xhtml">prompt(1923)</a:script>
+        <path d="M50,2a48,48 0 1 1 0,96a24 24 0 1 1 0-48a24 24 0 1 0 0-48"/>
+        <text transform="translate(10, 20) rotate(90)">ClickMe!</text>
+        <circle cx="50" cy="50" r="48" fill="none" stroke="#000"/>
+        <circle cx="50" cy="74" r="6" fill="#FFF"/>
+        <circle cx="50" cy="26" r="6"/>
+    </a>
+</svg>
