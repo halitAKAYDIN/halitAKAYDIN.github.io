@@ -1,0 +1,6 @@
+body {
+  background-color: #ffffff;
+}
+script {
+  alert("XSS attack!");
+}
