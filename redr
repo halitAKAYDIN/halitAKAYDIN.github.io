@@ -1,0 +1,6 @@
+<html>
+    <script>
+        const redr = new URLSearchParams(document.location.search);
+        window.location.href = redr.get("url");;
+    </script>
+</html>
