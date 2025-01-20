@@ -1,6 +1,23 @@
 <html>
     <script>
         const redr = new URLSearchParams(document.location.search);
-        window.location.href = redr.get("url");;
+        const encodedUrl = redr.get("url");
+    
+        if (encodedUrl) {
+            let decodedUrl;
+            try {
+                decodedUrl = atob(encodedUrl);
+    
+                if (!/^https?:\/\//.test(decodedUrl)) {
+                    throw new Error("An invalid URL format.");
+                }
+            } catch (e) {
+                decodedUrl = encodedUrl;
+            }
+            console.log("Redirecting to:", decodedUrl);
+            window.location.href = decodedUrl;
+        } else {
+            console.error("URL parameter not found.");
+        }
     </script>
 </html>
